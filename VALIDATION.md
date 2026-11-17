@@ -10,4 +10,6 @@ Validated on 27 October 2026 using Python 3.12.14 and the supplied original data
 
 Execution used a lightweight Python runner that evaluates cells in order and captures explicit displays, final expressions and Matplotlib figures. A Jupyter kernel and fresh pip installation were not tested in this environment. The `jupyterlab` frontend requirement is specified separately and was not installed here.
 
+After validation, a presentation-only cleanup removed a redundant NumPy import. This did not change the analytical logic or saved results.
+
 This validates reproducible execution against the supplied data. It does not validate deployment performance, causal conclusions or unseen future data.
